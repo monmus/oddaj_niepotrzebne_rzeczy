@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/oddaj_niepotrzebne_rzeczy/static/css/main.99cdb27a.chunk.css",
+    "main.js": "/oddaj_niepotrzebne_rzeczy/static/js/main.e4694c61.chunk.js",
+    "main.js.map": "/oddaj_niepotrzebne_rzeczy/static/js/main.e4694c61.chunk.js.map",
+    "runtime~main.js": "/oddaj_niepotrzebne_rzeczy/static/js/runtime~main.a6df7e72.js",
+    "runtime~main.js.map": "/oddaj_niepotrzebne_rzeczy/static/js/runtime~main.a6df7e72.js.map",
+    "static/js/2.b55ec96c.chunk.js": "/oddaj_niepotrzebne_rzeczy/static/js/2.b55ec96c.chunk.js",
+    "static/js/2.b55ec96c.chunk.js.map": "/oddaj_niepotrzebne_rzeczy/static/js/2.b55ec96c.chunk.js.map",
+    "index.html": "/oddaj_niepotrzebne_rzeczy/index.html",
+    "precache-manifest.c624b733281f685cfb85ae957d04f598.js": "/oddaj_niepotrzebne_rzeczy/precache-manifest.c624b733281f685cfb85ae957d04f598.js",
+    "service-worker.js": "/oddaj_niepotrzebne_rzeczy/service-worker.js",
+    "static/css/main.99cdb27a.chunk.css.map": "/oddaj_niepotrzebne_rzeczy/static/css/main.99cdb27a.chunk.css.map",
+    "static/media/about.png": "/oddaj_niepotrzebne_rzeczy/static/media/about.798e681b.png",
+    "static/media/appform1.scss": "/oddaj_niepotrzebne_rzeczy/static/media/barrett-ward.eda5da16.jpg",
+    "static/media/contact.scss": "/oddaj_niepotrzebne_rzeczy/static/media/form-bg.5690826a.jpg",
+    "static/media/header.jpg": "/oddaj_niepotrzebne_rzeczy/static/media/header.05aa4f85.jpg",
+    "static/media/loggedviewheader.scss": "/oddaj_niepotrzebne_rzeczy/static/media/rocknwool.1ac21176.jpg"
+  }
+}
