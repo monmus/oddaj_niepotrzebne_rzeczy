@@ -1,0 +1,120 @@
+header {
+    width: 100%;
+    height: 100vh;
+    background-color: #ffffff;
+    position: relative;
+  
+    .photo_main {
+      width: auto;
+      height: 100vh;
+    }
+  
+    .buttons {
+      position: absolute;
+      top: 0px;
+      right: 135px;
+      padding: 10px;
+  
+      .signIn, .signUp {
+        width: 120px;
+        height: 40px;
+        color: #4b4b4b;
+        font-size: 1.6rem;
+        font-weight: 300;
+        background: white;
+        cursor: pointer;
+      }
+  
+      .signIn {
+        border: none;
+      }
+  
+      .signUp {
+        border: 1px solid #7e7171;
+      }
+    }
+  
+    .navigation {
+      position: absolute;
+      top: 115px;
+      right: 0;
+  
+      .list {
+        display: flex;
+        list-style-type: none;
+        text-align: center;
+        width: 700px;
+        height: 50px;
+  
+        li {
+          padding: 10px;
+          margin-right: 10px;
+  
+          &:first-child {
+            width: 90px;
+            height: 50px;
+            border: 1px solid #4b4b4b;
+          }
+  
+          a {
+            width: 100px;
+            height: 50px;
+            color: #4b4b4b;
+            font-size: 1.8rem;
+            font-weight: 400;
+            cursor: pointer;
+          }
+        }
+      }
+    }
+  
+    .info {
+      text-align: center;
+      width: 500px;
+      display: flex;
+      flex-direction: column;
+      position: absolute;
+      bottom: 185px;
+      right: 150px;
+  
+      p {
+        color: #4b4b4b;
+        font-size: 2.6rem;
+        font-weight: 300;
+        letter-spacing: -0.80px;
+      }
+  
+      img {
+        width: 300px;
+        height: 40px;
+        margin: 0 auto;
+        margin-top: 45px;
+      }
+  
+      div {
+        display: flex;
+        justify-content: space-between;
+        font-weight: 100;
+        margin-top: 70px;
+  
+        .give_away, .collection {
+          background: none;
+          text-align: center;
+          width: 230px;
+          height: 100px;
+          color: #4b4b4b;
+          font-size: 2.7rem;
+          text-transform: uppercase;
+          border: 1px solid #707070;
+          cursor: pointer;
+          text-decoration: none;
+          a{
+            text-decoration: none;
+            color: #4b4b4b;
+            font-size: 2.7rem;
+          }
+        }
+      }
+    }
+ 
+}

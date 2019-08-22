@@ -1,0 +1,113 @@
+#foundations{
+  width: 100%;
+  height: 110vh;
+
+
+.foundations-header {
+  margin: 50px auto;
+  width: 650px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.foundations-header p {
+  text-align: center;
+
+
+  width: 80%;
+  color: #4b4b4b;
+  font-size: 2rem;
+  line-height: 35px;
+  font-weight: 100;
+}
+
+.foundations-title {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 30px;
+}
+
+.foundations-title h1 {
+  color: #4b4b4b;
+  font-size: 2.5rem;
+  font-weight: 100;
+}
+
+.foundations-title div {
+  width: 560px;
+  height: 69px;
+  margin-top: 40px;
+  background-image: url("../images/ornament.png");
+}
+
+.foundations-elements-nav {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 30px;
+  list-style-type: none;
+}
+
+.foundations-elements-nav li {
+  font-size: 2rem;
+  color: #4b4b4b;
+  text-align: center;
+  width: 33%;
+  padding: 10px;
+  border: 1px solid transparent;
+  list-style-type: none;
+
+  &:hover {
+    border: 1px solid #3C3C3C;
+    cursor: pointer;
+  }
+}
+
+.foundations-elements-nav li:first-of-type {
+  padding: 20px 10px;
+}
+
+.foundations-elements-nav li:last-of-type {
+  padding: 20px 10px;
+}
+
+.foundations-list-container, .organizations-list-container, .collections-list-container {
+  width: 1275px;
+  margin: 100px auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.foundations-list-container li, .organizations-list-container li, .collections-list-container li {
+  margin-bottom: 30px;
+  list-style-type: none;
+  color: #4b4b4b;
+}
+
+.foundations-list-container h3, .organizations-list-container h3, .collections-list-container h3 {
+  font-size: 1.8rem;
+  color: #4b4b4b;
+  margin-bottom: 10px;
+  line-height: 35px;
+  font-weight: 100;
+}
+
+.decoration {
+  width: 450px;
+  height: 1px;
+  display: block;
+  background: rgb(219, 176, 5);
+  margin-top: 30px;
+}
+
+.elements-descriptions h3 {
+  color: #ffffff;
+}
+
+.elements-descriptions p {
+  text-align: right;
+  font-size: 1.8rem;
+  color: #4b4b4b;
+}
+}

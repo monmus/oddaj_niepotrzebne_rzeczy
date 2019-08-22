@@ -1,0 +1,164 @@
+
+.logged-view-container {
+    width: 100%;
+    height: 102vh;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: url("../images/rocknwool.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  
+  .logged-view-login ul, .logged-view-nav ul {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .logged-view-login li {
+    list-style: none;
+    margin-right: 10px;
+  }
+  
+  .logged-view-login, .logged-view-nav {
+    padding-top: 50px;
+    padding-right: 120px;
+  }
+  
+  .logged-view-login span {
+    font-size: 1.5rem;
+    color:   #4b4b4b;
+    padding-right: 20px;
+    position: relative;
+  
+    &:hover {
+      cursor: pointer;
+    }
+  }
+  
+  .logged-view-login li {
+    text-decoration: none;
+    color:   #4b4b4b;
+    font-size: 1.5rem;
+  
+    &:hover {
+      cursor: auto;
+    }
+  }
+  
+  .logged-view-dropdown-menu {
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    border: 1px solid  #3C3C3C;
+    position: absolute;
+    right: -50px;
+    top: 40px;
+    background-color: white;
+  }
+  
+  .logged-view-dropdown-menu li {
+    font-size: 1.2rem;
+    text-align: center;
+    margin: 10px;
+    background: #ffffff;
+  }
+  
+  .logged-view-nav li {
+    list-style: none;
+  }
+  
+  .logged-view-nav a {
+    font-size: 1.2em;
+    text-decoration: none;
+    color:   #4b4b4b;
+    padding: 10px 20px;
+    border: 1px solid transparent;
+  
+    &:hover {
+      border: 1px solid  #3C3C3C;
+      cursor: pointer;
+    }
+  }
+  
+  .logged-view-call-to-action {
+    width: 700px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-top: 150px;
+    margin-left: 700px;
+    font-weight: lighter;
+  }
+  
+  .logged-view-call-to-action h1, .logged-view-call-to-action span {
+    font-size: 2.3rem;
+    color:   #4b4b4b;
+    margin-bottom: 20px;
+  }
+  
+  .logged-view-call-to-action-decoration {
+    background-image: url("../images/ornament.png");
+    background-repeat: no-repeat;
+    width: 573px;
+    height: 94px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+  }
+  
+  .logged-view-call-to-action span {
+    text-transform: uppercase;
+    margin-bottom: 0;
+  }
+  
+  .logged-view-boxes {
+    display: flex;
+    margin-top: 30px;
+  }
+  
+  .logged-view-boxes div {
+    width: 135px;
+    height: 135px;
+    border: 1px solid  #3C3C3C;
+    transform: rotate(45deg);
+    position: relative;
+    margin: 20px;
+  }
+  
+  .logged-view-boxes div p:last-of-type {
+    transform: rotate(-45deg);
+    position: absolute;
+    top: 45px;
+    left: -6px;
+    color:   #4b4b4b;
+    font-size: 1.5rem;
+    text-align: center;
+  }
+  
+  .logged-view-boxes div p:first-of-type {
+    transform: rotate(-45deg);
+    position: absolute;
+    top: 25px;
+    left: 25px;
+    font-size: 1.5rem;
+    color:   #4b4b4b;
+  }
+  
+  .info-bar {
+    background: #FACA12;
+    padding: 40px 300px;
+  }
+  
+  .info-bar h1 {
+    font-size: 2.5rem;
+    color:  #4b4b4b;
+   
+  }
+  
+  .info-bar p {
+    font-size: 1.5rem;
+    color:  #4b4b4b;
+  }

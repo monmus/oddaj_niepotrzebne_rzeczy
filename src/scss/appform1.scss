@@ -1,0 +1,100 @@
+.form-container {
+    height: 500px;
+    background-image: url("../images/barrett-ward.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+  
+    position: relative;
+    background-position: 0;
+}
+
+  
+  .form-app-header {
+    margin: 40px 300px;
+  }
+  
+  .form-app-header span {
+    color: #4b4b4b;
+    font-size: 2.5rem;
+  }
+  
+  .form-app-header h1 {
+    font-size: 2.5rem;
+    margin-top: 40px;
+    color: #4b4b4b;
+  }
+  
+  .form-one {
+    margin: 40px 300px;
+  }
+  
+  .form-one label {
+    display: block;
+    position: relative;
+    padding-left: 60px;
+    margin-bottom: 50px;
+    cursor: pointer;
+    font-size: 20px;
+    user-select: none;
+    color: #4b4b4b;
+  }
+  
+  .form-one input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+  }
+  
+  .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 30px;
+    width: 30px;
+    border: 1px solid #3C3C3C;
+  }
+  
+  .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  
+  .form-one input:checked ~.checkmark:after {
+    display: block;
+  }
+  
+  .form-one .checkmark:after {
+    left: 9px;
+    top: 1px;
+    width: 10px;
+    height: 20px;
+    border: solid #3C3C3C;
+    border-width: 0 3px 3px 0;
+    transform: rotate(45deg);
+  }
+  
+  .form-one button {
+    color: #4b4b4b;
+    font-size: 1.5rem;
+    background: none;
+    width: 150px;
+    height: 75px;
+    border: 1px solid #3C3C3C;
+    margin-top: 40px;
+  
+    &:hover {
+      cursor: pointer;
+      background: FACA12;
+  }
+  
+  .form-send-link {
+    text-decoration: none;
+    color: #4b4b4b;
+  
+  }
+
+  }
